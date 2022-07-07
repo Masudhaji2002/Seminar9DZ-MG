@@ -14,12 +14,12 @@
  else 
      Console.WriteLine ("Число {0} не является палиндромом", Num);
 
+
+//Задача 21 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
  Console.WriteLine("Введите х1=");
              int buf = Int32.Parse(Console.ReadLine());
              double x1 = Convert.ToDouble(buf);
 
-
-//Задача 21 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
              Console.WriteLine("Введите х2=");
              int qwerty = Int32.Parse(Console.ReadLine());
              double x2 = Convert.ToDouble(qwerty);
